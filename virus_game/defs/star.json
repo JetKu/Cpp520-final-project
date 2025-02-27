@@ -1,0 +1,25 @@
+{
+  "name": "Star",
+  "type": "dynamic",
+  "description": "Point-giving star",
+  "shape": [
+    { "x": 0, "y": -15 },
+    { "x": 5, "y": -5 },
+    { "x": 15, "y": -5 },
+    { "x": 7, "y": 2 },
+    { "x": 10, "y": 13 },
+    { "x": 0, "y": 7 },
+    { "x": -10, "y": 13 },
+    { "x": -7, "y": 2 },
+    { "x": -15, "y": -5 },
+    { "x": -5, "y": -5 }
+  ],
+  "friction": {
+    "collision": 0,
+    "linear": 0,
+    "rotational": 0
+  },
+  "sensors": [],
+  "mass": 0.1,
+  "controller": "lib/star.so"
+}

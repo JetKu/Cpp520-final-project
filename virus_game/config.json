@@ -1,0 +1,171 @@
+{
+    "name": "Dodge the Cunning Viruses",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "agents": [
+        {
+            "definition": "defs/player.json",
+            "style": { "fill": "#3498db", "stroke": "#2980b9", "stroke-width": "2" },
+            "position": {
+                "x": 200,
+                "y": 200,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/virus.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b", "stroke-width": "1.5" },
+            "position": {
+                "x": -150,
+                "y": -150,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/virus.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b", "stroke-width": "1.5" },
+            "position": {
+                "x": 0,
+                "y": -180,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/virus.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b", "stroke-width": "1.5" },
+            "position": {
+                "x": 150,
+                "y": -150,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/virus.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b", "stroke-width": "1.5" },
+            "position": {
+                "x": -180,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/virus.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b", "stroke-width": "1.5" },
+            "position": {
+                "x": 180,
+                "y": 0,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/virus.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b", "stroke-width": "1.5" },
+            "position": {
+                "x": -150,
+                "y": 150,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/virus.json",
+            "style": { "fill": "#e74c3c", "stroke": "#c0392b", "stroke-width": "1.5" },
+            "position": {
+                "x": 0,
+                "y": 180,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/star.json",
+            "style": { "fill": "gold", "stroke": "#ff9900", "stroke-width": "1.5" },
+            "position": {
+                "x": -150,
+                "y": -150,
+                "theta": 0
+            }
+        }
+    ],
+    "statics": [
+        {
+            "style": { "fill": "#95a5a6", "stroke": "none" },
+            "shape": [
+                { "x": -250, "y": -250 },
+                { "x": -250, "y": 250 },
+                { "x": -240, "y": 250 },
+                { "x": -240, "y": -250 }
+            ]
+        },
+        {
+            "style": { "fill": "#95a5a6", "stroke": "none" },
+            "shape": [
+                { "x": 250, "y": -250 },
+                { "x": 250, "y": 250 },
+                { "x": 240, "y": 250 },
+                { "x": 240, "y": -250 }
+            ]
+        },
+        {
+            "style": { "fill": "#95a5a6", "stroke": "none" },
+            "shape": [
+                { "x": -250, "y": 250 },
+                { "x": 250, "y": 250 },
+                { "x": 250, "y": 240 },
+                { "x": -250, "y": 240 }
+            ]
+        },
+        {
+            "style": { "fill": "#95a5a6", "stroke": "none" },
+            "shape": [
+                { "x": -250, "y": -250 },
+                { "x": 250, "y": -250 },
+                { "x": 250, "y": -240 },
+                { "x": -250, "y": -240 }
+            ]
+        },
+        {
+            "style": { "fill": "#7f8c8d", "stroke": "#34495e", "stroke-width": "1" },
+            "shape": [
+                { "x": -160, "y": -100 },
+                { "x": -160, "y": -80 },
+                { "x": -60, "y": -80 },
+                { "x": -60, "y": -100 }
+            ]
+        },
+        {
+            "style": { "fill": "#7f8c8d", "stroke": "#34495e", "stroke-width": "1" },
+            "shape": [
+                { "x": 60, "y": -100 },
+                { "x": 60, "y": -80 },
+                { "x": 160, "y": -80 },
+                { "x": 160, "y": -100 }
+            ]
+        },
+        {
+            "style": { "fill": "#7f8c8d", "stroke": "#34495e", "stroke-width": "1" },
+            "shape": [
+                { "x": -100, "y": 80 },
+                { "x": -100, "y": 100 },
+                { "x": -60, "y": 100 },
+                { "x": -60, "y": 80 }
+            ]
+        },
+        {
+            "style": { "fill": "#7f8c8d", "stroke": "#34495e", "stroke-width": "1" },
+            "shape": [
+                { "x": 60, "y": 80 },
+                { "x": 60, "y": 100 },
+                { "x": 100, "y": 100 },
+                { "x": 100, "y": 80 }
+            ]
+        },
+        {
+            "style": { "fill": "#7f8c8d", "stroke": "#34495e", "stroke-width": "1" },
+            "shape": [
+                { "x": -20, "y": -40 },
+                { "x": -20, "y": 40 },
+                { "x": 20, "y": 40 },
+                { "x": 20, "y": -40 }
+            ]
+        }
+    ]
+}
