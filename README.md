@@ -66,7 +66,6 @@ enviro
 ```
 6. Open your web browser and type in localhost and you should be able to see this.
 
-![](/images/screenshot.png)
 ![](./images/screenshot.png)
 
 ## Acknowledgement
