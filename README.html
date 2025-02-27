@@ -18,7 +18,8 @@
 }
 
 </style>
-            
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -139,6 +140,7 @@
         </head>
         <body class="vscode-body vscode-light">
             <h1 id="dodge-the-cunning-viruses">Dodge the Cunning Viruses</h1>
+<p>This system is built using <a href="https://github.com/klavinslab/elma">Elma</a> and <a href="https://github.com/klavinslab/enviro">Enviro</a>.</p>
 <h2 id="game-overview">Game Overview</h2>
 <p>In a bounded terrain with obstacles, the player controls a blue robot to collect golden stars while avoiding cunning red viruses.</p>
 <h2 id="game-elements">Game Elements</h2>
@@ -183,8 +185,54 @@
 </ul>
 </li>
 </ol>
+<h2 id="installation">Installation</h2>
+<h3 id="requirements">Requirements</h3>
+<p>Please make sure that you have docker and Git installed before proceeding to the installation steps.</p>
+<ol>
+<li><a href="https://docs.docker.com/get-docker/">Docker</a></li>
+<li><a href="https://git-scm.com/">Git</a></li>
+</ol>
+<h3 id="step-by-step-installation-instruction">Step by step installation instruction</h3>
+<ol>
+<li>Open up command prompt or bash.</li>
+<li>Type in</li>
+</ol>
+<pre><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/JetKu/Cpp520-final-project.git
+</code></pre>
+<ol start="3">
+<li>Change to the project directory</li>
+</ol>
+<pre><code class="language-bash"><span class="hljs-built_in">cd</span> virus_game
+</code></pre>
+<ol start="4">
+<li>Before starting the docker image, please change the <strong>$PWD</strong> to your project folder. Then start the docker image environment (It will automatically download the docker image if you do not have it in your local machine),</li>
+</ol>
+<p>For example,</p>
+<pre><code class="language-bash">docker run -p80:80 -p8765:8765 -v <span class="hljs-variable">$PWD</span>:/source -it klavins/enviro:v1.61 bash
+</code></pre>
+<ol start="5">
+<li>To start the project,</li>
+</ol>
+<pre><code class="language-bash">esm start
+</code></pre>
+<pre><code class="language-bash">enviro
+</code></pre>
+<ol start="6">
+<li>Open your web browser and type in localhost and you should be able to see this.</li>
+</ol>
+<p><img src="file:////images/screenshot.png" alt="">
+<img src="file:////Users/mac/code/eep520_course/eep520-wi25/project/images/screenshot.png" alt=""></p>
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>This system is built on top of <a href="https://github.com/klavinslab/elma">Elma</a> and <a href="https://github.com/klavinslab/enviro">Enviro</a>.</p>
+<ul>
+<li>Elma is an event loop and process manager for embedded and reactive systems. Elma is structured as a C++ library of classes on top of which you build your own C++ project. It keeps track of processes, finite state machines, events, and communication channels, executing them at specified frequencies.</li>
+<li>Enviro is a multi-agent, multi-user, multi-everything simulator for users to play around and have fun coding C++.</li>
+</ul>
+<p>The installation and running this is made easy by using a dockerhub image built by <a href="https://github.com/klavinslab">Klavins Lab</a>.</p>
+<p>Both packages were built by <a href="https://github.com/klavinslab">Klavins Lab</a>.</p>
+<p>The tutorial part of this README file refers to <a href="https://github.com/inoejj/odyssey_bot/tree/main">https://github.com/inoejj/odyssey_bot/tree/main</a>.</p>
 
-            
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             
         </body>
         </html>
